@@ -2,6 +2,9 @@
 
 This project demonstrates the classification of EEG (Electroencephalogram) data using various machine learning algorithms from scikit-learn library. The EEG data contains readings from different patients, and the goal is to classify whether a patient is epileptic or not based on the EEG readings.
 
+![image](https://github.com/Prakarsha01/EpilipticSeizurePredeiction/assets/67196711/95e44a1a-0ae4-44e7-8671-fbf41197a9fe)  
+Fig. Different EEGs plotted from the dataset
+
 ## Data Preprocessing
 
 The dataset is loaded and preprocessed as follows:
@@ -10,6 +13,9 @@ The dataset is loaded and preprocessed as follows:
 - Target values are extracted and converted to binary format.
 - Data is split into train, validation, and test sets.
 - Imbalanced data handling using Synthetic Minority Over-sampling Technique (SMOTE) is demonstrated.
+  
+![image](https://github.com/Prakarsha01/EpilipticSeizurePredeiction/assets/67196711/1590bf95-c3dc-4248-a28c-3704049a70f2)  
+Fig. Data Imbalance in the dataset for the current binary classification problem
 
 ## Training
 
